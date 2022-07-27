@@ -28,6 +28,7 @@ public static void main(String args[])
 	System.out.println("-----------TOTAL--------");
 	int result= sumOfElement(size,arr);//calling sumOfElement method
 	System.out.println(result+" is the total of all elements in array.");
+	scan.close();
 }
 //creating a method to add all the elements
 public static int sumOfElement(int size,int arr[]){

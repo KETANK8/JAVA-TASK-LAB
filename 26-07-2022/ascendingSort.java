@@ -25,6 +25,7 @@ public static void main(String args[])
 	}
 	sorting(size,arr); //calling sorting method
 	System.out.println("\n");
+	scan.close();
 }
 
 //creating a method for sorting of an array

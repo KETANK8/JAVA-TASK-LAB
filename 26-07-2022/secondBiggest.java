@@ -27,6 +27,7 @@ public static void main(String args[])
 	int result= secondBig(size,arr); //calling secondBig method
 	System.out.println("---------RESULT---------");
 	System.out.println(result+" is 2nd biggest element in array.");
+	scan.close();
 }
 
 //creating a method for finding 2nd biggest element
