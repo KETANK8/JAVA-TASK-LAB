@@ -25,7 +25,7 @@ public static void main(String args[])
 		arr[i] = scan.nextInt();
 	}
 	System.out.println("---------RESULT---------");
-	duplicateElement(size,arr); //calling secondBig method
+	duplicateElement(size,arr); //calling duplicateElement method
 	scan.close();
 }
 

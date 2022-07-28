@@ -42,7 +42,7 @@ class customer{
 	private String userName;
 	private int accountNum,balance,amount;
 	
-	//creating method setDetail to store information of movie
+	//creating method createAccount to store information of user
 	public void createAccount(String name,int num,int bal){
 		userName = name;
 		accountNum = num;
