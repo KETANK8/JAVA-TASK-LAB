@@ -49,7 +49,7 @@ class Address{
 	}
 }
 
-//class 2
+//class 3
 //Creating class employee 
 class employee{
 	int empId;

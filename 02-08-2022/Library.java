@@ -52,7 +52,7 @@ class Author{
 	}
 }
 
-//class 2
+//class 3
 //Creating class book
 class bookEntry{
 	int bookId;
