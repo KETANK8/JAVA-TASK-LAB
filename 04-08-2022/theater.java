@@ -1,5 +1,5 @@
 /*
-Program too create Movie Theater Management to store and display movie details.
+	Program to create Movie Theater Management to store and display movie details.
 */
 
 // importing scanner utility to get input from user
@@ -62,7 +62,7 @@ class movie{
 		Start = start;
 		End = end;
 		Price = price;	
-		System.out.println("Movie details successfully added.");
+		System.out.println("Movie details added successfully.");
 	}
 	
 	//Creating method printDetail to display information of movie

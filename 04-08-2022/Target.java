@@ -1,6 +1,7 @@
 /*
 	Program to find all the possible two number in an array 
 	whose sum is equal to the target.
+	Ketan Kumar
 */
 
 // importing scanner utility to scan the user input
