@@ -1,5 +1,6 @@
 /*
 	Program to create Movie Theater Management to store and display movie details.
+	by Ketan Kumar
 */
 
 // importing scanner utility to get input from user

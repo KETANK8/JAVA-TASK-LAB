@@ -1,6 +1,7 @@
 /*
 	Program to perform calculation using addition,subtraction multiplication and division
 	method taking any no of arguments using varargs.
+	by Ketan Kumar
 */
 
 // importing scanner utility to scan the user input
