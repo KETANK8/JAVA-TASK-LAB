@@ -43,22 +43,15 @@ public class Target{
 class search{
 	public void Sum(int arr[],int size,int target){
 		int lenght = size;
-		int[] result;
-		
-		//creating array name result to store set of value in result array
-		result = new int[2];
 		
 		//for loop to traverse the array
 		for(int i=0;i<lenght;i++){
 			for(int j=i+1;j<lenght;j++){
 				// comparing if sum of two elements is equal to target
 				if(target == arr[i]+arr[j]){
-					//storing right value in result array
-					result[0]=arr[i];
-					result[1]=arr[j];
 					
 					// printing all the possible set of two value whose sum is equal to target
-					System.out.print("Element: ["+result[0]+","+result[1]+"]");
+					System.out.print("Element: ["+arr[i]+","+arr[j]+"]");
 					System.out.println("  Index :["+i+","+j+"]");
 				}
 			}
