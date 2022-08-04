@@ -31,19 +31,20 @@ public static void main(String args[]){
 	//using switch to perform user seleted operation
 	switch(choice){
 		//callng addDetail method of movie class using show object
-		case (choice = "add"||"Add"||"ADD"): show.addDetail(movieName,startTime,endTime,price);
+		case "add": show.addDetail(movieName,startTime,endTime,price);
 					break;
-		/*case "Add": show.addDetail(movieName,startTime,endTime,price);
+		case "Add": show.addDetail(movieName,startTime,endTime,price);
 					break;
 		case "ADD": show.addDetail(movieName,startTime,endTime,price);
-					break;*/
-		//callng printDetail method of movie class using show object			
-		case (choice = "print"||"Print"||"PRINT"): show.printDetail(movieName,startTime,endTime,price);
 					break;
-		/*case "Print": show.printDetail(movieName,startTime,endTime,price);
+					
+		//callng printDetail method of movie class using show object			
+		case "print": show.printDetail(movieName,startTime,endTime,price);
+					break;
+		case "Print": show.printDetail(movieName,startTime,endTime,price);
 					break;
 		case "PRINT": show.printDetail(movieName,startTime,endTime,price);
-					break;*/
+					break;
 		default : System.out.println("Invalid Selection!!");
 	}
 	scan.close();
