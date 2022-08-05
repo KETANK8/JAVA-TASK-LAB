@@ -74,9 +74,13 @@ class calculator{
 		//subtracting values
 		for(int x : args){
 			System.out.println(x+" ");
-			if(result != 0){
+			if (result == 0 && start == 0){
 				result -= x;
 			}
+			else if(result != 0){
+				result -= x;
+			}
+			
 			if (result == 0){
 				result = start;
 				start = 0;
