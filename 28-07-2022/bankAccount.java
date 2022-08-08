@@ -31,7 +31,7 @@ public static void main(String args[]){
 	user.getAmount();//calling getAmount method
 	user.withdrawAmount(amount); //calling withdrawAmount method
 	
-	//callng getDetail method of movie class using show object
+	//callng getDetail method of customer class using user object
 	user.getDetail();
 	scan.close();
 }
